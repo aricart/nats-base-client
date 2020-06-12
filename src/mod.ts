@@ -9,6 +9,6 @@ export {
   Msg,
 } from "./types.ts";
 export { Transport } from "./transport.ts";
-export { setTransportFactory, Subscription } from "./protocol.ts";
+export { setTransportFactory, Subscription, Sub } from "./protocol.ts";
 export { render, extractProtocolMessage, INFO } from "./util.ts";
 export { DataBuffer } from "./databuffer.ts";
